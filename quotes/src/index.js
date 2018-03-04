@@ -1,5 +1,9 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -37,3 +41,8 @@ export default class Example extends React.Component {
     );
   }
 }
+
+ReactDOM.render(
+  <Example />,
+  document.getElementById('root')
+);
