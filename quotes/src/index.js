@@ -4,7 +4,6 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Jumbotron, Button, Container } from 'reactstrap';
 
-
 export default class QuoteNavbar extends React.Component {
   constructor(props) {
     super(props);
